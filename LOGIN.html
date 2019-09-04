@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form>
+<p align="center"><font face="MS Sans Serif" size="1"> USER NAME : 
+  <input type="text" name="text2" size="20">
+</font>
+</p>
+<p align="center"> <font face="MS Sans Serif" size="1"> PASSWORD :
+<input type="password" name="text1" size="20"></font>
+</p>
+
+<p align="center"> <font face="MS Sans Serif" size="1"><input type="button" value="LOGIN" name="Submit" onclick=javascript:validate(text2.value,"namkiat",text1.value,"code") >
+</font>
+</p>
+
+</form>
+<script language = "javascript">
+
+function validate(text1,text2,text3,text4)
+{
+ if (text1==text2 && text3==text4)
+ <a href="main Web.html">หน้าแรก</a>;
+ else 
+ {
+  load('https://www.google.com/search?q=%E0%B8%AE%E0%B8%B1%E0%B9%88%E0%B8%99%E0%B9%81%E0%B8%99%E0%B9%88&rlz=1C2PRFI_enTH781TH781&source=lnms&tbm=isch&sa=X&ved=0ahUKEwig656bkrfkAhVLMI8KHVM4BSIQ_AUIEigB&biw=1920&bih=888#imgrc=zOqazLkxfwORFM');
+ }
+}
+function load(url)
+{
+ location.href=url;
+}
+</script>
+</body>
+</html>
